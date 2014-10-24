@@ -1,3 +1,9 @@
+/* 
+    Document   : stylesheet
+    Created on : Oct 23, 2014
+    Author     : Kyle White
+*/
+
 root { 
     display: block;
 }
@@ -6,12 +12,20 @@ body{
     background-color: gray;
 }
 
-form{
-    background-color: red;
+th{
+    text-align: center;
 }
 
 td{
     color: white;
+    padding: 8px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+table{
+    margin: 0 auto;
+    background-color: blue;
 }
 
 #valueBar{
