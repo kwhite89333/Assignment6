@@ -1,0 +1,21 @@
+root { 
+    display: block;
+}
+
+body{
+    background-color: gray;
+}
+
+form{
+    background-color: red;
+}
+
+td{
+    color: white;
+}
+
+#valueBar{
+    float: left;
+    width: 100%;
+    background-color: orange;
+}
