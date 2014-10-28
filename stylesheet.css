@@ -1,6 +1,6 @@
 /* 
     Document   : stylesheet
-    Created on : Oct 23, 2014
+    Created on : Oct 23, 2014, 1:18:27 PM
     Author     : Kyle White
 */
 
@@ -9,11 +9,16 @@ root {
 }
 
 body{
+    /* background: url(background1.jpg); */
     background-color: gray;
+    background-repeat: no-repeat;
 }
-
+    
 th{
     text-align: center;
+    color: orange;
+    text-shadow: 2px 2px 2px black;
+    padding: 5px;
 }
 
 td{
@@ -21,14 +26,19 @@ td{
     padding: 8px;
     border: 1px solid black;
     text-align: center;
+    text-shadow: 2px 2px 2px black;
 }
 
 table{
-    margin: 0 auto;
+    margin: auto auto;
 }
 
 #valueBar{
     float: left;
     width: 100%;
     background-color: orange;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px black;
+    margin-bottom: 5px;
 }
