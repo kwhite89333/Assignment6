@@ -61,7 +61,7 @@ $(document).ready(function() {
 
                         // appends an empty table header to the string to represent
                         // an empty cell
-                        strAppend = strAppend.concat("<th id=firstChild></th>");
+                        strAppend = strAppend.concat("<th id=topLeft></th>");
                     }
 
                     /* checks if the current row is 0, meaning that we are currently
