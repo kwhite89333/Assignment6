@@ -82,7 +82,7 @@ $(document).ready(function() {
                         strAppend = strAppend.concat("</th>");
                     }
 
-                    /* If we are now in the first row or the first column, then we
+                    /* If we are not in the first row or the first column, then we
                      must be in a row and a column in which there is data to read.
                      A td tag is added to the string to create an additional cell in the table
                      where the data is to be stored. Multiply the two respective
